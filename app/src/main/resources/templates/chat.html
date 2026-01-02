@@ -55,7 +55,7 @@
     function showMessage(message) {
         var chat = document.getElementById('chat');
         var messageElement = document.createElement('div');
-        messageElement.textContent = message.sender + ':' + message.content;
+        messageElement.textContent = message.sender + ': ' + message.content;
         console.log(message.sender + ':' + message.content);
         messageElement.className = "border-bottom mb-1";
         chat.appendChild(messageElement);
